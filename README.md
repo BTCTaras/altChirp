@@ -8,4 +8,4 @@ Chirp is a Twitter clone for ComputerCraft. This is the CC client.
 
 ## License
 
-This project is licensed under GPL-v3. For more information, see the `LICENSE `file.
+This project is licensed under GPL-v3. For more information, see the `LICENSE` file.
