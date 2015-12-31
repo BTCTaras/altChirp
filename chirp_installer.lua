@@ -189,9 +189,6 @@ end
 local status, message = pcall(run)
 
 if not status then
-	term.setBackgroundColour(colours.white)
-	term.clear()
-
 	local lines = {
 		{
 			colour 	= colours.lightBlue,
@@ -239,4 +236,8 @@ if not status then
 	term.setTextColour(colours.lightGrey)
 	write(bottomText)
 	read("")
+	term.setBackgroundColour(bgc)
+	term.setTextColour(tc)
+	term.setCursorPos(1, 1)
+	term.clear()
 end
